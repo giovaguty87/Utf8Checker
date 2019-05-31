@@ -21,13 +21,10 @@ namespace ConsoleAppCheckEncoder
 
         public static Utf8Checker Checker = new Utf8Checker();
 
-        //public static string fileName = "D:\\PersonalData\\BGlobal\\Translate\\Designer_es.json";
-        //public static string fileName = "D:\\PersonalData\\BGlobal\\Translate\\Login_es.json";
-        //public static string fileName = "D:\\PersonalData\\BGlobal\\Translate\\Registration_es.json";
-
-        //public static string fileName = "D:\\PersonalData\\BGlobal\\Translate\\WithOutEncode\\Designer_es.json";
-        //public static string fileName = "D:\\PersonalData\\BGlobal\\Translate\\WithOutEncode\\Login_es.json";
-        //public static string fileName = "D:\\PersonalData\\BGlobal\\Translate\\WithOutEncode\\Registration_es.json";
+        /// <summary>
+        /// Check encode in JSON file.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
 
